@@ -1,0 +1,52 @@
+.main, .template{
+	display:none;
+}
+#header > h3 {
+    margin: 0;
+    padding: 2px;
+    margin-left:5px;
+    text-align: left;
+    background-color: #858585;
+}
+
+#inputArea{
+ 	bottom:5px;
+ 	position:fixed;
+ 	width:100%;
+ }
+ 
+input { border-radius:2px; border:1px solid #ccc; height:40px;margin:5px;}
+p { line-height:14px; }
+
+textarea {
+	background-color:transparent;
+	height:45px;
+	overflow:hidden;
+	width:67%;
+	float:left;
+	margin:5px;
+}
+
+#datasend{
+	width:25%;
+	margin-top:7px;
+}
+	
+ul {
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.promptTyping{
+ 	display:none;
+ 	position:fixed;
+ 	bottom:70px;
+ 	background-color:#99CCFF;
+}
+
+.nickName{
+	color:#0B323D;
+	font-size:medium;
+	font-style: italic;
+}
